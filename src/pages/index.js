@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>7Creative Desgin</title>
+        <title>3Pera Desgin</title>
       </Head>
       <Hero />
     </>

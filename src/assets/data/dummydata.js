@@ -50,30 +50,30 @@ export const expertise = [
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
+    name: "Mark Newton",
     cover: "../images/e1.jpg",
-    post: "Seven consulting - CEO",
+    post: "Seven Softlanding - CEO",
     desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
   },
   {
     id: 2,
-    name: "Diana Green",
+    name: "Diana Nwafor",
     cover: "../images/e2.jpg",
-    post: "Seven Arts - marketing manager",
+    post: "Seven Arts Landing - marketing manager",
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
   {
     id: 3,
-    name: "Alexander Black",
+    name: "Alexander Nwaimo",
     cover: "../images/e3.jpg",
-    post: "Seven consulting - CEO",
+    post: "Seven Softlanding - COO",
     desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
   },
   {
     id: 4,
-    name: "Diana Green",
+    name: "3 R N 3 S T",
     cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
+    post: "Arts - UDG   ",
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
 ]
@@ -174,9 +174,9 @@ export const blogdata = [
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
+    title: "Katherine Chukwuneta",
     cover: "../images/t1.jpg",
-    post: "FOUNDER, CEO",
+    post: "PERA LOGISTICS, CEO",
   },
   {
     id: 2,
@@ -192,9 +192,9 @@ export const teamdata = [
   },
   {
     id: 4,
-    title: "Richard Greenwood",
+    title: "ERNEST EMMANUEL",
     cover: "../images/t4.jpg",
-    post: "PROGRAMMER",
+    post: "SOFTWARE ENGINEER",
   },
   {
     id: 5,
