@@ -4,6 +4,7 @@ import { Title, TitleSm } from "@/components/common/Title"
 import Head from "next/head"
 import { useRouter } from "next/router"
 import React from "react"
+import Image from "next/image"
 
 const SinglePost = () => {
   const router = useRouter()
