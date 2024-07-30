@@ -25,7 +25,7 @@ const Agency = () => {
                   <h3>Years of experience</h3>
                 </div>
                 <div className='box'>
-                  <h1 className='indigo'>50+</h1>
+                  <h1 className='indigo'>100+</h1>
                   <h3>Successful cases</h3>
                 </div>
                 <div className='box'>
@@ -35,13 +35,13 @@ const Agency = () => {
               </div>
             </div>
             <div className='right w-40 ml'>
-              <Image src='/images/s1.jpg' alt='Img' className='round' width={50} height={50} />
+              <Image src='/images/s1.jpg' alt='Img' className='round' width={100} height={100} />
             </div>
           </div>
 
           <div className='content flex'>
             <div className='left w-40 py'>
-              <Image src='/images/s4.jpg' alt='Img' className='round' width={50} height={50} />
+              <Image src='/images/s4.jpg' alt='Img' className='round' width={100} height={100} />
             </div>
             <div className='right w-60 ml'>
               <TitleSm title='Our mission' />
