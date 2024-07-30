@@ -1,13 +1,14 @@
 import Link from "next/link"
 import { TitleSm } from "./Title"
 import { HiOutlineArrowRight } from "react-icons/hi"
+import Image from "next/image"
 
 export const Card = ({ data, caption, show, path }) => {
   return (
     <>
       <div className='card'>
         <div className='card-img'>
-          <img src={data.cover} alt={data.title} />
+          <Image src={data.cover} alt={data.title} height={100} width={100} />
         </div>
         <div className='card-details'>
           <Link href={`${path}/${data.id}`} className='title-link'>

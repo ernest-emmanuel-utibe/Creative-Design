@@ -1,12 +1,13 @@
 import React from "react"
 import { TitleSm } from "./common/Title"
 import Link from "next/link"
-import { testimonial } from "@/assets/data/dummydata"
+import { testimonial } from "../../src/assets/data/dummydata"
 import { HiOutlineArrowRight } from "react-icons/hi"
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Slider from "react-slick"
+import Image from "next/image"
 
 function SampleNextArrow(props) {
   const { onClick } = props
@@ -65,7 +66,7 @@ const Testimonial = () => {
                   <div className='card'>
                     <div className='image'>
                       <div className='img'>
-                        <img src={user.cover} alt='' />
+                        <Image src={user.cover} alt='' width={50} height={50}/>
                       </div>
                       <div className='img-text'>
                         <h3>{user.name}</h3>
